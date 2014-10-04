@@ -1,1 +1,1 @@
-module.exports = Em.Application.create()
+module.exports = Ember.Application.create();

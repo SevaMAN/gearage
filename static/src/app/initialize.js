@@ -1,7 +1,5 @@
 window.App = require('app');
 
-// adapters
-//require('adapters');
 
 //components
 require('components');

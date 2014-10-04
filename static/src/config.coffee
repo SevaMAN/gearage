@@ -9,7 +9,6 @@ exports.config =
         'javascripts/vendor.js': /^bower_components|vendor/
 
     stylesheets:
-      defaultExtension: 'css'
       joinTo:
         'stylesheets/app.css': /^app/
         'stylesheets/vendor.css': /^bower_components|vendor/
@@ -24,9 +23,8 @@ exports.config =
         handlebars: 'bower_components/handlebars/handlebars.js'
         ember: 'bower_components/ember/ember.js'
 
-  modules:
-    addSourceURLs: true
-
+  paths:
+    public: __dirname + '/../dist'
 
   server:
     port: 3333
