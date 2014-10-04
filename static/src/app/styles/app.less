@@ -1,0 +1,101 @@
+body { 
+  padding-top: 50px;
+  background-color: #f7f7f7;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pr-block {
+  background-color: #fff;
+  margin-top: 20px;
+  position: relative;
+ 
+  .pr-main {
+    display: inline-block;
+    min-height: 400px;
+  }
+
+  .pr-side {
+    width: 25%;
+    min-width: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+
+    .pr-rate {
+      background-color:  #4ab389;
+      height: 35%;
+    }
+ 
+    .pr-owns {
+      background-color:  #57c096;
+      height: 20%;
+      border-top: 1px solid #fff;
+    }
+ 
+    .pr-wants {
+      background-color:  #57c096;
+      height: 20%;
+      border-top: 1px solid #fff;
+    }
+ 
+    .pr-buy {
+      background-color:  #4aabec;
+      height: 25%;
+      border-top: 1px solid #fff;
+    }
+
+  }
+}
+
+.pr-usrs-block {
+  height: 100px;
+  margin-top: 20px;
+  
+  .pr-usrs-pro {
+    border-right: 1px solid #d7d7d7;
+
+    .pr-usrs-info {
+      display: inline-block;
+      padding: 0px 15px 0px 15px;
+      li {
+        margin-left: 5px;
+      }
+      .pro-title {
+        margin-left: 0;
+        font-size: 1.7em;
+      }
+    }
+    .pr-usrs-img {
+      display: inline-block;
+    }
+  }
+
+  .pr-usrs {
+    padding: 0px 15px 0px 15px;
+    & > div:first-child {
+      margin-bottom: 5px;
+      display: block;
+    }
+    & > div {
+      display: inline-block;
+      vertical-align: top;
+      li {
+        &.logged-user {
+          p {
+            color: #5ec99e;
+            margin-top: 10px;
+          }
+
+          margin-right: 15px;
+        }
+        height: 60px;
+        vertical-align: top;
+      }
+    }
+  }
+}

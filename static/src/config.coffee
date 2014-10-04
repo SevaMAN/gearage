@@ -27,8 +27,6 @@ exports.config =
   modules:
     addSourceURLs: true
 
-  paths:
-    public: __dirname + '/../dist'
 
   server:
     port: 3333
